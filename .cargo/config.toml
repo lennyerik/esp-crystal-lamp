@@ -1,0 +1,8 @@
+[target.riscv32imc-unknown-none-elf]
+rustflags = [
+    # LLD
+    "-C",
+    "link-arg=-Tlinkall.x",
+    "-C",
+    "linker=rust-lld",
+]

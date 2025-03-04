@@ -18,6 +18,9 @@ Later I also want to be able to control the animations and colors of the lamp us
 - [probe-rs](https://probe.rs/) for flashing and debugging
     - After installation, you should have the `probe-rs`, `cargo flash` and `cargo embed` binaries available
 
+## Schematic
+![vector graphic of the connection diagram](schematic/schematic.svg)
+
 ## Building and uploading
 
 Connect your ESP32C3 to your computer and run:
